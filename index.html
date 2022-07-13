@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>IMaps</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+    <link rel="stylesheet" href="assets/style/style.css">
+
+    <script src="https://kit.fontawesome.com/57a5f9b5e4.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="assets/image/logo-itenas.png" width="10%" class="pt-5 pb-3 img-fluid mx-auto d-block" alt="">
+    </header>
+
+    <!-- partial:index.partial.html -->
+    <!-- <div class="legend-info" style="position: absolute; top: 75%; right:70%;">
+        <div class="legend-texts border bg-white ">
+            <div class="g-fakultas">
+                <i class="fa-solid fa-circle prodi"></i>
+                <span>Gedung Fakultas & Program Studi</span>
+            </div>
+            <div class="g-f.umum">
+                <i class="fa-solid fa-circle fasum"></i>
+                <span>Gedung Fasilitas Umum</span>
+            </div>
+            <div class="g-kantor">
+                <i class="fa-solid fa-circle kantor"></i>
+                <span>Gedung Kantor</span>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="interactive-map">
+
+        <div class="legend-info" style="position: absolute; top: 80%; right:75%;">
+            <div class="legend-texts border bg-white ">
+                <div class="g-fakultas">
+                    <i class="fa-solid fa-circle prodi"></i>
+                    <span>Gedung Fakultas & Program Studi</span>
+                </div>
+                <div class="g-f.umum">
+                    <i class="fa-solid fa-circle fasum"></i>
+                    <span>Gedung Fasilitas Umum</span>
+                </div>
+                <div class="g-kantor">
+                    <i class="fa-solid fa-circle kantor"></i>
+                    <span>Gedung Kantor</span>
+                </div>
+            </div>
+        </div>
+
+        <img src="assets/image/map.png" class="mx-auto d-block imageMaps">
+
+        <!-- legend  -->
+
+        <!-- Markers -->
+        <div class="map-point">
+            <span class="gd22 info info-effect-4" style="top:40%; right:84.5%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle fasum" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- Gedung 22 -->
+              <!-- <p class="fs-5 text-white pt-3">Gedung 22</p> -->
+              <div class="titlegd">
+                <p>Gedung 22</p>
+              </div>
+              <p><a href="#">Student Center</a></p>
+              <!-- <p><a href="#">Student Center</a></p> -->
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <div class="map-point">
+            <span class="gd25 info info-effect-4" style="top:53.5%; right:78.3%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle fasum" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- <a href="#">Gedung 25</a><br> -->
+              <!-- <p class="fs-5 text-white pt-3">Gedung 25</p> -->
+              <div class="titlegd">
+                <p>Gedung 25</p>
+              </div>
+              <p><a href="#">Klinik Itenas</a></p>
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <div class="map-point">
+            <span class="gd1 info info-effect-4" style="top:31%; right:71%;">
+        <span class="info-item">
+          <!-- <i class="fa fa-map-marker" aria-hidden="true"></i> -->
+          <i class="fa-solid fa-circle prodi" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- Gedung 1 -->
+              <!-- <p class="fs-5 text-white pt-3">Gedung 1</p> -->
+              <div class="titlegd">
+                <p>Gedung 1</p>
+              </div>
+              <!-- <div class="mb-1 d-block gedung-list"> -->
+              <p class="mb-1">
+                <a href="https://www.itenas.ac.id/akademik/fad/program-studi-desain-interior/">Program Studi
+                  Desain Interior</a>
+              </p>
+              <p class="mb-1">
+                <a href="https://www.itenas.ac.id/akademik/fad/program-studi-desain-produk/">Program Studi Desain
+                  Produk</a>
+              </p>
+              <p>
+                <a href="https://www.itenas.ac.id/akademik/fad/program-studi-desain-komunikasi-visual/">Program Studi
+                  Desain Komunikasi Visual</a>
+              </p>
+              <!-- </div> -->
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <div class="map-point">
+            <span class="gd19 info info-effect-4" style="top:38%; right:66.5%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle prodi" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- Gedung 19 -->
+              <!-- <p class="fs-5 text-white pt-3">Gedung 19</p> -->
+              <div class="titlegd">
+                <p>Gedung 19</p>
+              </div>
+              <p>
+                <a href="https://www.itenas.ac.id/akademik/fti/program-studi-teknik-kimia/">Program Studi Teknik
+                  Kimia</a>
+              </p>
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <div class="map-point">
+            <span class="gd17 info info-effect-4" style="top:44%; right:62%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle prodi" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- Gedung 17 -->
+              <!-- <p class="fs-5 text-white pt-3">Gedung 17</p> -->
+              <div class="titlegd">
+                <p>Gedung 17</p>
+              </div>
+              <p>
+                <a href="https://www.itenas.ac.id/akademik/fad/program-studi-arsitektur/">Program Studi Arsitektur</a>
+              </p>
+              <!-- <p><a href="">Studio Dasar Perancangan Aristektur</a></p>
+              <p><a href="">Studio Dasar Struktur Konstruksi Bangunan</a></p>
+              <p><a href="">Studio Perancangan Aristektur</a></p>
+              <p><a href="">Lab. Fisika Bangunan</a></p>
+              <p><a href="">Studio Struktur Konstruksi</a></p> -->
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <div class="map-point">
+            <span class="gd4 info info-effect-4" style="top:52%; right:61%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle prodi" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- <a href="#">Gedung 4</a><br> -->
+              <!-- <p class="fs-5 text-white pt-3">Gedung 4</p> -->
+              <div class="titlegd">
+                <p>Gedung 4</p>
+              </div>
+              <p><a href="">Ruang Kuliah Umum</a></p>
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <div class="map-point">
+            <span class="gd16 info info-effect-4" style="top:46%; right:56.5%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle prodi" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- <a href="#">Gedung 16</a><br> -->
+              <!-- <p class="fs-5 text-white pt-3">Gedung 16</p> -->
+              <div class="titlegd">
+                <p>Gedung 16</p>
+              </div>
+              <p class="mb-1"><a href="">UPT TIK</a></p>
+              <p class="mb-1"><a href="">Lab. Fisika Dasar</a></p>
+              <p><a href="">Ruang Kuliah Umum</a></p>
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <div class="map-point">
+            <span class="gd14 info info-effect-4" style="top:59%; right:57%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle prodi" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- Gedung 14 -->
+              <!-- <p class="fs-5 text-white pt-3">Gedung 14</p> -->
+              <div class="titlegd">
+                <p>Gedung 14</p>
+              </div>
+              <p><a href="#">Fakultas</a></p>
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <div class="map-point">
+            <span class="gd18 info info-effect-4" style="top:57.5%; right:51.5%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle prodi" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- Gedung 18 -->
+              <!-- <p class="fs-5 text-white pt-3">Gedung 18</p> -->
+              <div class="titlegd">
+                <p>Gedung 18</p>
+              </div>
+              <p><a href="https://www.itenas.ac.id/akademik/ftsp/program-studi-teknik-geodesi/">Program Studi Teknik
+                  Geodesi</a></p>
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <div class="map-point">
+            <span class="gd20 info info-effect-4" style="top:61%; right:49%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle prodi" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- Gedung 20 -->
+              <!-- <p class="fs-5 text-white pt-3 namag">Gedung 20</p> -->
+              <div class="titlegd">
+                <p>Gedung 20</p>
+              </div>
+              <p><a href="https://www.itenas.ac.id/akademik/fti/program-studi-teknik-elektro/">Program Studi Teknik
+                  Elektro</a></p>
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <div class="map-point">
+            <span class="gd15 info info-effect-4" style="top:56%; right:40%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle kantor" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- Gedung 15 -->
+              <!-- <p class="fs-5 text-white pt-3">Gedung 15</p> -->
+              <div class="titlegd">
+                <p>Gedung 15</p>
+              </div>
+              <p class="mb-1"><a href="#">Rektorat</a></p>
+              <p><a href="#">Bank BNI</a></p>
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <div class="map-point">
+            <span class="gd23 info info-effect-4" style="top:38%; right:38.5%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle fasum" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- <a href="#">Gedung 23</a><br> -->
+              <!-- <p class="fs-5 text-white pt-3">Gedung 23</p> -->
+              <div class="titlegd">
+                <p>Gedung 23</p>
+              </div>
+              <p><a href="#">Masjid</a></p>
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <div class="map-point">
+            <span class="gd13 info info-effect-4" style="top:37%; right:45%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle fasum" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- <a href="#">Gedung 13</a> -->
+              <!-- <p class="fs-5 text-white pt-3">Gedung 13</p> -->
+              <div class="titlegd">
+                <p>Gedung 13</p>
+              </div>
+              <p><a href="#">Gedung Serba Guna</a></p>
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <div class="map-point">
+            <span class="gd5 info info-effect-4" style="top:27%; right:66%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle prodi" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- <a href="#">Gedung 5</a> -->
+              <!-- <p class="fs-5 text-white pt-3">Gedung 5</p> -->
+              <div class="titlegd">
+                <p>Gedung 5</p>
+              </div>
+              <p><a href="#">Laboratorium</a></p>
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <div class="map-point">
+            <span class="gd6 info info-effect-4" style="top:22%; right:62%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle prodi" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- <a href="#">Gedung 6</a><br> -->
+              <!-- <p class="fs-5 text-white pt-3">Gedung 6</p> -->
+              <div class="titlegd">
+                <p>Gedung 6</p>
+              </div>
+              <p><a href="#">Laboratorium</a></p>
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <div class="map-point">
+            <span class="gd24 info info-effect-4" style="top:42%; right:51%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle fasum" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- <a href="#">Gedung 24</a><br> -->
+              <!-- <p class="fs-5 text-white pt-3">Gedung 24</p> -->
+              <div class="titlegd">
+                <p>Gedung 24</p>
+              </div>
+              <p><a href="#">Cafetaria</a></p>
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <div class="map-point">
+            <span class="gd12 info info-effect-4" style="top:22%; right:51%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle prodi" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- Gedung 12 -->
+              <!-- <p class="fs-5 text-white pt-3">Gedung 12</p> -->
+              <div class="titlegd">
+                <p>Gedung 12</p>
+              </div>
+              <p><a href="https://www.itenas.ac.id/akademik/ftsp/program-studi-teknik-sipil/">Program Studi Teknik
+                  Sipil</a></p>
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <div class="map-point">
+            <span class="gd9 info info-effect-4" style="top:16.5%; right:54.8%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle fasum" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- <a href="#">Gedung 9</a><br> -->
+              <!-- <p class="fs-5 text-white pt-3">Gedung 9</p> -->
+              <div class="titlegd">
+                <p>Gedung 9</p>
+              </div>
+              <p><a href="#">UPT - Perpustakaan</a></p>
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <div class="map-point">
+            <span class="gd8 info info-effect-4" style="top:12.5%; right:57.8%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle prodi" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- Gedung 8 -->
+              <!-- <p class="fs-5 text-white pt-3">Gedung 8</p> -->
+              <div class="titlegd">
+                <p>Gedung 8</p>
+              </div>
+              <p><a href="https://www.itenas.ac.id/akademik/ftsp/program-studi-teknik-lingkungan/">Program Studi Teknik
+                  Lingkungan</a></p>
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <div class="map-point">
+            <span class="gd11 info info-effect-4" style="top:12%; right:46.3%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle prodi" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- Gedung 11 -->
+              <!-- <p class="fs-5 text-white pt-3">Gedung 11</p> -->
+              <div class="titlegd">
+                <p>Gedung 11</p>
+              </div>
+              <p><a href="https://www.itenas.ac.id/akademik/fti/program-studi-teknik-mesin/">Program Studi Teknik
+                  Mesin</a></p>
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <div class="map-point">
+            <span class="gd10 info info-effect-4" style="top:5%; right:51.5%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle prodi" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- Gedung 10 -->
+              <!-- <p class="fs-5 text-white pt-3">Gedung 10</p> -->
+              <div class="titlegd">
+                <p>Gedung 10</p>
+              </div>
+              <p><a href="https://www.itenas.ac.id/akademik/fti/program-studi-teknik-industri/">Program Studi Teknik
+                  Industri</a></p>
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <div class="map-point">
+            <span class="gd2 info info-effect-4" style="top:11%; right:38%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle prodi" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- Gedung 2 -->
+              <!-- <p class="fs-5 text-white pt-3">Gedung 2</p> -->
+              <div class="titlegd">
+                <p>Gedung 2</p>
+              </div>
+              <p class="mb-1"><a href="https://www.itenas.ac.id/akademik/fti/program-studi-informatika/">Program Studi
+                  Informatika</a></p>
+              <p>
+                <a href="https://www.itenas.ac.id/akademik/fti/program-studi-sistem-informasi/">Program Studi Sistem
+                  Informasi</a>
+              </p>
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <div class="map-point">
+            <span class="gd3 info info-effect-4" style="top:5.2%; right:42.2%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle fasum" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- <a href="#">Gedung 3</a><br> -->
+              <!-- <p class="fs-5 text-white pt-3">Gedung 3</p> -->
+              <div class="titlegd">
+                <p>Gedung 3</p>
+              </div>
+              <p class="mb-1"><a href="#">Lab. Bahasa Inggris</a></p>
+              <p><a href="#">Lab. Beton</a></p>
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <div class="map-point">
+            <span class="gd21 info info-effect-4" style="top:0.5%; right:46%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle prodi" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- Gedung 21 -->
+              <!-- <p class="fs-5 text-white pt-3">Gedung 21</p> -->
+              <div class="titlegd">
+                <p>Gedung 21</p>
+              </div>
+              <p><a href="https://www.itenas.ac.id/akademik/ftsp/program-studi-perencanaan-wilayah-dan-kota/">Program
+                  Studi Perencanaan Wilayah dan Kota</a></p>
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <!-- parking -->
+        <div class="map-point">
+            <span class="gdpb1 info info-effect-4" style="top:50%; right:80%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle fasum" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- Gedung 21 -->
+              <!-- <p class="fs-6 text-white pt-3">Parkiran Motor</p> -->
+              <div class="titlegd park">
+                <p>Parkiran Motor</p>
+              </div>
+              <!-- <p><a href="https://www.itenas.ac.id/akademik/ftsp/program-studi-perencanaan-wilayah-dan-kota/">Program
+                  Studi Perencanaan Wilayah dan Kota</a></p> -->
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <div class="map-point">
+            <span class="gdpb2 info info-effect-4" style="top:35%; right:28%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle fasum" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- Gedung 21 -->
+              <!-- <p class="fs-6 text-white pt-3">Parkiran Motor</p> -->
+              <div class="titlegd park">
+                <p>Parkiran Motor</p>
+              </div>
+              <!-- <p><a href="https://www.itenas.ac.id/akademik/ftsp/program-studi-perencanaan-wilayah-dan-kota/">Program
+                  Studi Perencanaan Wilayah dan Kota</a></p> -->
+            </span>
+            </span>
+            </span>
+        </div>
+
+        <div class="map-point">
+            <span class="gdpc1 info info-effect-4" style="top:58%; right:54%;">
+        <span class="info-item">
+          <i class="fa-solid fa-circle fasum" aria-hidden="true"></i>
+          <span class="info-content clearfix">
+            <span class="info-text">
+              <!-- Gedung 21 -->
+              <!-- <p class="fs-6 text-white pt-3">Parkiran Mobil</p> -->
+              <div class="titlegd park">
+                <p>Parkiran Mobil</p>
+              </div>
+              <!-- <p><a href="https://www.itenas.ac.id/akademik/ftsp/program-studi-perencanaan-wilayah-dan-kota/">Program
+                  Studi Perencanaan Wilayah dan Kota</a></p> -->
+            </span>
+            </span>
+            </span>
+        </div>
+
+
+
+        <!-- WI -->
+    </div>
+    <!-- partial -->
+    <div class="more">
+        <a href="" class="text-decoration-none">
+            <p class="text-white text-center my-5">Click to see more</p>
+        </a>
+        <!-- <p class="">Lorem ipsum</p> -->
+    </div>
+</body>
+
+</html>

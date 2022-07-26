@@ -571,7 +571,8 @@ footer {
   }
   body {
     /* margin-top: 100px; */
-    background: linear-gradient(180deg, #ffffff 20%, #ef9222 75%);
+    /* background: linear-gradient(180deg, #ffffff 20%, #ef9222 75%); */
+    background: linear-gradient(180deg, #ffffff 0%, #ef9222 50%);
     /* background: rgba(239, 146, 34, 1); */
     /* background: linear-gradient(180deg, rgba(255, 255, 255, 1) 25%, rgba(239, 146, 34, 1) 80%); */
     background-repeat: no-repeat;
@@ -808,6 +809,44 @@ footer {
   }
   .gdpb2 {
     top: 26% !important;
+  }
+
+  /* cloud stuff */
+  #background-wrap {
+    top: 0%;
+    padding-top: -25%;
+  }
+
+  /* cloud size */
+
+  .x1 {
+    -webkit-transform: scale(0.2);
+    -moz-transform: scale(0.2);
+    transform: scale(0.2);
+  }
+
+  .x2 {
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    transform: scale(0.1);
+  }
+
+  .x3 {
+    -webkit-transform: scale(0.2);
+    -moz-transform: scale(0.2);
+    transform: scale(0.2);
+  }
+
+  .x4 {
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    transform: scale(0.3);
+  }
+
+  .x5 {
+    -webkit-transform: scale(0.35);
+    -moz-transform: scale(0.35);
+    transform: scale(0.35);
   }
 }
 

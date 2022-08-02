@@ -14,10 +14,21 @@
 
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   
 </head>
 
 <body>
+  <div id="loading">
+    <img id="loading-image" src="https://upload.wikimedia.org/wikipedia/commons/d/de/Ajax-loader.gif" alt="Loading..." />
+  </div>
+
+  <script>
+    $(window).on('load', function () { $('#loading').hide(); })
+  </script>
+
   <header>
     <img src="assets/image/logo-itenas.png" width="10%" class="pt-5 pb-3 img-fluid mx-auto d-block" alt="">
   </header>

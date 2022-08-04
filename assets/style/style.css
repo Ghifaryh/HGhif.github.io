@@ -281,6 +281,7 @@ header > img {
 
 /* footer stuff */
 footer {
+  border: solid #fc8322;
   background-color: #fc8e22;
 }
 

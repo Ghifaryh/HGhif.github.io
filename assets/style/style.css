@@ -571,6 +571,57 @@ footer {
 
 /* /complex Animated cloud */
 
+/* ImageTransportation */
+/* .transportation { */
+/* width: 10000000% !important; */
+/* position: relative; */
+/* background-color: black !important; */
+/* z-index: 10000; */
+/* } */
+
+.transportation img {
+  position: absolute;
+  width: 6%;
+  /* background-color: black; */
+  /* display: block; */
+  /* Starter Position */
+  /* top: 39%; */
+  top: 39%;
+  right: 15%;
+  /* animation-name: transportMoving;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; */
+  animation: diagonal-move-anim 3s linear infinite normal;
+}
+
+@keyframes diagonal-move-anim {
+  0% {
+    /* transform: translate(35%, 0%); */
+    /* transform: translate(60%, -10%); */
+    /* transform: translate(60%, -20%); */
+    transform: translate(60%, -10%);
+  }
+
+  100% {
+    /* transform: translate(-450%, 300%); */
+    transform: translate(-550%, 365%);
+  }
+}
+
+@keyframes diagonal-move-anim-mobile {
+  0% {
+    /* transform: translate(35%, 0%); */
+    /* transform: translate(60%, -10%); */
+    /* transform: translate(60%, -20%); */
+    transform: translate(60%, -30%);
+  }
+
+  100% {
+    /* transform: translate(-450%, 300%); */
+    transform: translate(-500%, 320%);
+  }
+}
+
 /* responsive for phone  */
 @media (max-width: 480px) {
   /* removing white spaces */
@@ -867,6 +918,10 @@ footer {
     -webkit-transform: scale(0.35);
     -moz-transform: scale(0.35);
     transform: scale(0.35);
+  }
+
+  .transportation img {
+    animation: diagonal-move-anim-mobile 3s linear infinite normal;
   }
 }
 
